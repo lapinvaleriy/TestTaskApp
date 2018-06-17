@@ -1,0 +1,143 @@
+table {
+    border-collapse: collapse;
+    width: 850px;
+    margin-left: 30px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff
+}
+
+th {
+    background-color: #728eaf;
+    color: white;
+}
+
+body {
+    background: rgba(17, 18, 255, 0.01);
+    color: #000000;
+}
+
+.wrapper {
+    position: absolute;
+    width: 1000px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top: 5%;
+}
+
+.inputWrapper {
+    display: block;
+    width: 760px;
+    height: 415px;
+    margin: 0 auto;
+    background: rgba(87, 144, 177, 0.31);
+    border: 1px solid rgba(0, 0, 0, 0.29);
+    border-radius: 5px;
+}
+
+.inputTransWrapper {
+    display: block;
+    width: 760px;
+    height: 505px;
+    margin: 0 auto;
+    background: rgba(87, 144, 177, 0.31);
+    border: 1px solid rgba(0, 0, 0, 0.29);
+    border-radius: 5px;
+}
+
+.tableWrapper {
+    display: block;
+    width: 903px;
+    height: 663px;
+    margin: 0 auto;
+    background: rgba(87, 144, 177, 0.09);
+    border: 1px solid rgba(0, 0, 0, 0.29);
+    border-radius: 5px;
+}
+
+input[type=text], input[type=number], input[type=password] {
+    margin-left: 230px;
+    height: 40px;
+    width: 300px;
+}
+
+label {
+    margin-left: 230px;
+}
+
+select {
+    width: 300px;
+    margin-left: 230px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.cardLabel {
+    margin-top: 30px;
+}
+
+.send {
+    width: 300px;
+    height: 50px;
+    color: #ffffff;
+    background: #2a53b1c4;
+    border: none;
+    border-radius: 5px;
+    margin-left: 230px;
+}
+
+.errorMsg {
+    font-size: 17px;
+    color: red;
+    display: block;
+    text-align: center;
+}
+
+#modalSubmit {
+    margin: auto;
+    color: #ffffff;
+    background: #2a53b1c4;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+}
+
+.modalLabel {
+    margin: auto;
+}
+
+#psw {
+    margin: 0px 0px 0px 15px;
+}
+
+#cardName {
+    margin: 0px 0px 0px 11px;
+}
+
+#myBtn {
+    float: right;
+    margin-right: 20px;
+    color: white;
+    background: #5161bbd9;
+    width: 200px;
+    height: 50px;
+}
+
+#notFound {
+    font-size: 27px;
+    color: #27272b;
+    display: block;
+    margin: 55px auto;
+    text-align: center;
+}
+
+
